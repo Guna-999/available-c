@@ -8,3 +8,23 @@ int main()
     b=++a + --b;
     printf("%d,%d",a,b);
 }
+
+
+#2#
+#include <stdio.h>
+int main()
+{
+    int x = 10, y;
+    y = ++x;
+    printf("%d,%d",x,y);
+}
+
+
+#3#
+#include <stdio.h>
+int main()
+{
+    int x = 10, y;
+    y = x++;
+    printf("%d,%d",x,y);
+}
