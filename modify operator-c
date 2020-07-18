@@ -10,7 +10,7 @@ int main()
 }
 
 
-#2#
+#2# pre-increment
 #include <stdio.h>
 int main()
 {
@@ -20,7 +20,7 @@ int main()
 }
 
 
-#3#
+#3# post-increment
 #include <stdio.h>
 int main()
 {
