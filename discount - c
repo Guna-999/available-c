@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int qty, dis = 10;
+    float rate, tot;
+    printf("enter the quantity and rate");
+    scanf("%d %f", &qty, &rate);
+    
+    if(qty > 1000);
+    
+    tot = (qty * rate) - (qty * rate * dis / 1000);
+    printf("total expenses = Rs. %f\n", tot);
+    return 0;
+}
