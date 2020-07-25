@@ -1,0 +1,33 @@
+#include<stdio.h> 
+int main()
+{
+    int s1,s2,s3,s4,s5,per;
+    
+    printf("enter marks in 5 subjects: ");
+    scanf("%d %d %d %d %d", &s1, &s2, &s3, &s4, &s5);
+    per=(s1+s2+s3+s4+s5)*100/500;
+    
+    if(per>=60)
+    {
+        printf("first division");
+    }
+    else
+    { 
+        if(50<=60)
+        {
+            printf("second division");
+        }
+        else
+        {
+            if(40<=50)
+            {
+                printf("third division");
+            }
+            else
+            {
+                printf("fail\n");
+            }
+        }
+    }
+    return 0;
+}
