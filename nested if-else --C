@@ -13,13 +13,13 @@ int main()
     }
     else
     { 
-        if(50<=60)
+        if(50>=60)
         {
             printf("second division");
         }
         else
         {
-            if(40<=50)
+            if(40>=50)
             {
                 printf("third division");
             }
