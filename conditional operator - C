@@ -1,0 +1,10 @@
+#include<stdio.h>
+
+int main()
+{
+    int a,b,k;
+    printf("enter the value of a,b: ");
+    scanf("%d %d",&a,&b);
+    k = a>b?a:b;
+    printf("k value is %d",k);
+}
